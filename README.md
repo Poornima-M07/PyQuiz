@@ -24,13 +24,3 @@ Validate: User input is converted to uppercase to prevent case-sensitivity error
 Score: A final score is calculated and displayed with a custom rating.
 
 
-
-# Example Question Format
-Each question in the questions list follows this schema:
-
-Python
-{
-    "q": "What keyword starts a function?",
-    "options": ["A) function", "B) def", "C) func", "D) fn"],
-    "answer": "B"
-}
