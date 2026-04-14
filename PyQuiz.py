@@ -74,8 +74,8 @@ questions = [
 ]
 
 score = 0
-random.shuffle(questions)  # Fixed: shuffle doesn't take a second argument
-questions = questions[:5]  # Select only 5 random questions
+random.shuffle(questions) 
+questions = questions[:5] 
 
 for q in questions:
     print("\n" + q["q"])
